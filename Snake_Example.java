@@ -103,8 +103,8 @@ public class Snake_Example extends JPanel {
 		while(!gameover) {
 			//Carry out the logic of the game every frame
 			panel.moveSnakeHead();
-			panel.moveSnakeBody();
 			panel.testAppleCollision();
+			panel.moveSnakeBody();
 			frame.repaint();
 			
 			/*
